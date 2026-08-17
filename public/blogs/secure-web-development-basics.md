@@ -2,7 +2,7 @@
 title: "Secure Web Development: Lessons From Web Application Security"
 date: "2026-08-10T09:00:00"
 excerpt: "Basic security practices developers should consider when building web applications."
-tags: ["Cybersecurity", "Web Security", "OWASP", "IT"]
+
 ---
 
 # Secure Web Development: Lessons From Web Application Security

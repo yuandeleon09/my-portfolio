@@ -2,7 +2,7 @@
 title: "Understanding the Software Development Life Cycle"
 date: "2026-08-14T09:00:00"
 excerpt: "Why planning, requirements, development, testing, deployment, and maintenance are all important parts of software development."
-tags: ["SDLC", "Software Engineering", "System Development", "IT"]
+
 ---
 
 # Understanding the Software Development Life Cycle
