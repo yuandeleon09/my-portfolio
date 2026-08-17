@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Home, User, Menu, X, Github, Linkedin, Mail, ExternalLink, Briefcase, GraduationCap } from 'lucide-react';
+import { Home, User, Menu, X, Github, Linkedin, Mail, Briefcase, GraduationCap } from 'lucide-react';
 // Import generated blog posts
 import generatedBlogPosts from './generatedBlogPosts.json';
 import profilePic from './assets/profile.jpg';
+import barangayImage from './assets/Baranggay New Era.png';
 
 // Make sure there are NO other imports here - everything should be in this file
 
@@ -88,9 +89,18 @@ const projects: Project[] = [
     title: "Cooking Recipe App",
     description: "A mobile application for browsing and saving cooking recipes. Features include recipe search, step-by-step instructions, ingredient lists, and favorites. Built with React Native for cross-platform compatibility.",
     image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=600&fit=crop",
-    tags: ["React Native", "Mobile App"],
-    github: "https://github.com/yourusername/cooking-app",
-    live: "https://github.com/yourusername/cooking-app"
+    tags: ["React Native", "Mobile App","Supabase"],
+    github: "https://github.com/yuandeleon09/cooking-app",
+    live: "https://github.com/yuandeleon09/cooking-app"
+  },
+  {
+    id: 5,
+    title: "Baranggay Management System",
+    description: "A Comprehensive Baranggay Management System For Baranggay  New Era, This system is designed to streamline administrative tasks, manage resident information, and facilitate communication within the community. Built with Node.js, Express, and React for a full-stack solution.",
+    image: barangayImage,
+    tags: ["MySQL", "Express", "Laravel"],
+    github: "https://github.com/yuandeleon09/baranggay-management-system",
+    live: "https://github.com/yuandeleon09/baranggay-management-system"
   }
 ];
 
@@ -99,13 +109,13 @@ const authorInfo: AuthorInfo = {
   title: "Full Stack Developer",
   bio: "A simple developer with experience of building web applications. Specialized in React, TypeScript, and Node.js. Love creating beautiful, functional user experiences.",
   email: "yuandeleon027@gmail.com",
-  github: "https://github.com/yourusername",
+  github: "https://github.com/yuandeleon09",
   linkedin: "https://www.linkedin.com/in/de-leon-yuan-eissen-e-230b25392/",
   avatar: profilePic,
   skills: [
     "React", "TypeScript", "Node.js", "Python", 
     "MongoDB", "MYSQL", "JAVA", "REST APIs",
-    "Tailwind CSS", "Git", "HTML", "CSS","Javascript"
+    "Tailwind CSS", "Git", "HTML", "CSS","Javascript","Flutter", "Laravel"
   ],
   experience: [
     {
@@ -161,17 +171,6 @@ const AuthorModal: React.FC<AuthorModalProps> = ({ isOpen, onClose, authorInfo }
             <div>
               <h2 className="text-3xl font-bold text-white mb-2">{authorInfo.name}</h2>
               <p className="text-cyan-400 text-lg mb-3">{authorInfo.title}</p>
-              <div className="flex gap-4">
-                <a href={`mailto:${authorInfo.email}`} className="text-gray-400 hover:text-cyan-400 transition-colors">
-                  <Mail size={20} />
-                </a>
-                <a href={authorInfo.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                  <Github size={20} />
-                </a>
-                <a href={authorInfo.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                  <Linkedin size={20} />
-                </a>
-              </div>
             </div>
           </div>
           <button 
@@ -254,7 +253,9 @@ const App: React.FC = () => {
     setLoading(true);
     
     // Use the generated blog posts directly
-    const posts = generatedBlogPosts as BlogPost[];
+    const posts = [...(generatedBlogPosts as BlogPost[])].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
     
     setBlogPosts(posts);
     setLoading(false);
@@ -398,24 +399,8 @@ const App: React.FC = () => {
                 ))}
               </div>
               <div className="flex gap-4">
-                <a 
-                  href={project.github}
-                  className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github size={18} />
-                  Code
-                </a>
-                <a 
-                  href={project.live}
-                  className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <ExternalLink size={18} />
-                  Live Demo
-                </a>
+
+               
               </div>
             </div>
           </div>
