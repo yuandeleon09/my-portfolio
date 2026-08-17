@@ -1,34 +1,8 @@
 [
   {
-    "id": 13,
-    "title": "Carrer opporunities in Cybersecurity",
-    "date": "2026-08-17T10:12:39.943Z",
-    "excerpt": "a small note for the opportunities in getting in cybersecurity...",
-    "content": "Career opportunities \r\n\r\n- growing demand\r\n- flexible work environment\r\n- competitive salaries\r\n- increased salary\r\n\r\nattacking Roles\r\n\r\n- vulnerability assessor\r\n    - identifies weakness in app and systems\r\n- penetration tester(Net/system)\r\n    - ethical hacker specialized in network and system security\r\n    - perform proof of concept testing for vulnerabilities\r\n- Security researcher\r\n    - discovers new vulnerabilities through research\r\n- web app pen test\r\n    - expert in securing web app and understanding in web tech\r\n- red team operator\r\n    - simulates adversarial tactics to test security systems.\r\n\r\nDefensive side\r\n\r\nRoles\r\n\r\nSecurity Analyst\r\n\r\n- monitors and responds to security events\r\n\r\nthreat hunter\r\n\r\n- Ethical hacker specialized in network and system security\r\n\r\nMalware / reverse engineering analyst\r\n\r\n- analyst and breaking down malicious software and code\r\n\r\ndigital forensics/independent response \r\n\r\n- investigating and responding to computer incidents\r\n\r\ncyber threat intelligence analyst \r\n\r\n- understanding and analyzing potential cyber threats\r\n\r\nthree pillars of cybersecurity \r\n\r\npeople\r\n\r\nprocess\r\n\r\ntechnology\r\n\r\n\r\nVulnerability Scanning\r\n\r\nPenetration testing - A simulated cyber attack against your computer system to check exploitable vulnerabilities. \r\n\r\nPenetration testing life cycle\r\n\r\n1. recon - discover the target\r\n2. enumeration or scanning - probing the defenses\r\n3. gaining access - breaking in\r\n4. maintaining access - Securing out foothold\r\n5. covering tracks - erasing out footprint\r\n6. reporting - documentation and reporting \r\n\r\nFUNDAMENTALS\r\n\r\n- learn the operating systems\r\n- learn basics of programming\r\n- Learn networking\r\n- learn security fundamentals\r\n- Learn frameworks / methodology\r\n- self directed learning combined with continuous practice.\r\n- cloud and AI",
-    "tags": [
-      "Cybersecurity",
-      "Tutorial"
-    ],
-    "slug": "career-opportunities",
-    "fileName": "career-opportunities.md"
-  },
-  {
-    "id": 14,
-    "title": "Burp Suite",
-    "date": "2026-08-17T10:12:39.943Z",
-    "excerpt": "a small note for the Burp Suite...",
-    "content": "- integrated platform web security testing\r\n- used by security prof. and bug bounty hunters\r\n\r\nbug bounty companies\r\n\r\nhttps://www.hackerone.com/\r\n\r\nhttps://www.bugcrowd.com/\r\n\r\nhttps://secuna.io/\r\n\r\ncore burp suite components\r\n\r\ninstalling burpsuite\r\n\r\nproxy - your web traffic middleman - acts as middleman for all your web traffic \r\n\r\nrepeater - manual http request manipulation\r\n\r\nintruder - automated attacks\r\n\r\nscanner - \r\n\r\nsequencer - analyzing session tokens\r\n\r\n sql injection\r\n\r\nsql - structured query language\r\n\r\nimproper neutralization of special elements in sql command\r\n\r\nsql inject dangerous\r\n\r\nData breach \r\n\r\ndata loss\r\n\r\nloss of accountability\r\n\r\nDenial of service or DoS\r\n\r\nfull system compromise\r\n\r\nmitigation strats\r\n\r\n- prepared statements with parameterized queries\r\n- input validation\r\n- stored procedures(used safely)\r\n- escaping user-supplied input\r\n\r\nconclusion\r\n\r\nSQLi is a critical vulnerability where attackers manipulate databases queries by injecting malicious SQL code through user input",
-    "tags": [
-      "Cybersecurity",
-      "Tutorial"
-    ],
-    "slug": "burp suite",
-    "fileName": "burp suite.md"
-  },
-  {
     "id": 11,
     "title": "Cryptography",
-    "date": "2026-08-17T10:12:39.942Z",
+    "date": "2026-08-17T10:20:41.653Z",
     "excerpt": "a small note for the Cryptography...",
     "content": "Lesson 3 9/12/25\n\nCryptography\n\nhash functions - plaintext - hash function - hashed text\n\nciphers\n\n- symmetric encryption one session key (mas mabilis 100 to 1000 times faster than asymmetric)\n\n-asymmetric encryption - two different session keys(public key and private key)\n\nasymmetric cryptographic algo:\n\nRSA - public-key cryptosystem\n\nDSA - digital signature algo\n\nECDSA -  Elliptic Curve Digital Signature Algorithm\n\nsymmetric cryptographic algo\n\nDES - 3des Data Encryption Standard\n\nIDEA -International Data Encryption Algorithm\n\nAES - advanced encryption standard\n\nRC -  Rivest's Cipher or Ron’s Code \n\nTransport encryption - VPN, IT sec, https, ssl,wpa2,\n\nend-to-end encryption - application layer, layer 7, pineprevent ng other party mabasa yung data natin sender and receiver has the power to read the data. example: [signal](https://signal.org/) app\n\n\nCA - free  digital certificate \n\ndigital certificate - issued to, when na certified, Public key\n\nto check if the certificate is legitimate here is the link to check [link](https://crt.sh/)\n\nlet’s encrypt free to register",
     "tags": [
@@ -41,7 +15,7 @@
   {
     "id": 12,
     "title": "Cloud and virtualization fundamentals",
-    "date": "2026-08-17T10:12:39.942Z",
+    "date": "2026-08-17T10:20:41.653Z",
     "excerpt": "a small note for Cloud and virtualization fundamentals...",
     "content": "Cloud and virtualization fundamentals\n\nHypervisor \n\nHardware → hypervisor→ Virtualized OS \n\ntype 1: Native(Bare-metal) - citrix, proxmox, esxi, v-sphere\n\nHybrid - KVM / QEM\n\nType 2: Hosted - virtual box, vmware, Qem\n\nCloud storage\n\nCloud storage app\n\nfile sync\n\ncontent delivery networks(CDN)\n\nCloud deployment models\n\npublic\n\nprivate\n\nhybrid \n\ncommunity\n\nsingle tenancy\n\nmultitenancy\n\ncloud access security broker (CASB) -",
     "tags": [
@@ -52,9 +26,35 @@
     "fileName": "Cloud and virtualization fundamentals.md"
   },
   {
+    "id": 13,
+    "title": "Carrer opporunities in Cybersecurity",
+    "date": "2026-08-17T10:20:41.653Z",
+    "excerpt": "a small note for the opportunities in getting in cybersecurity...",
+    "content": "Career opportunities \r\n\r\n- growing demand\r\n- flexible work environment\r\n- competitive salaries\r\n- increased salary\r\n\r\nattacking Roles\r\n\r\n- vulnerability assessor\r\n    - identifies weakness in app and systems\r\n- penetration tester(Net/system)\r\n    - ethical hacker specialized in network and system security\r\n    - perform proof of concept testing for vulnerabilities\r\n- Security researcher\r\n    - discovers new vulnerabilities through research\r\n- web app pen test\r\n    - expert in securing web app and understanding in web tech\r\n- red team operator\r\n    - simulates adversarial tactics to test security systems.\r\n\r\nDefensive side\r\n\r\nRoles\r\n\r\nSecurity Analyst\r\n\r\n- monitors and responds to security events\r\n\r\nthreat hunter\r\n\r\n- Ethical hacker specialized in network and system security\r\n\r\nMalware / reverse engineering analyst\r\n\r\n- analyst and breaking down malicious software and code\r\n\r\ndigital forensics/independent response \r\n\r\n- investigating and responding to computer incidents\r\n\r\ncyber threat intelligence analyst \r\n\r\n- understanding and analyzing potential cyber threats\r\n\r\nthree pillars of cybersecurity \r\n\r\npeople\r\n\r\nprocess\r\n\r\ntechnology\r\n\r\n\r\nVulnerability Scanning\r\n\r\nPenetration testing - A simulated cyber attack against your computer system to check exploitable vulnerabilities. \r\n\r\nPenetration testing life cycle\r\n\r\n1. recon - discover the target\r\n2. enumeration or scanning - probing the defenses\r\n3. gaining access - breaking in\r\n4. maintaining access - Securing out foothold\r\n5. covering tracks - erasing out footprint\r\n6. reporting - documentation and reporting \r\n\r\nFUNDAMENTALS\r\n\r\n- learn the operating systems\r\n- learn basics of programming\r\n- Learn networking\r\n- learn security fundamentals\r\n- Learn frameworks / methodology\r\n- self directed learning combined with continuous practice.\r\n- cloud and AI",
+    "tags": [
+      "Cybersecurity",
+      "Tutorial"
+    ],
+    "slug": "career-opportunities",
+    "fileName": "career-opportunities.md"
+  },
+  {
+    "id": 14,
+    "title": "Burp Suite",
+    "date": "2026-08-17T10:20:41.653Z",
+    "excerpt": "a small note for the Burp Suite...",
+    "content": "- integrated platform web security testing\r\n- used by security prof. and bug bounty hunters\r\n\r\nbug bounty companies\r\n\r\nhttps://www.hackerone.com/\r\n\r\nhttps://www.bugcrowd.com/\r\n\r\nhttps://secuna.io/\r\n\r\ncore burp suite components\r\n\r\ninstalling burpsuite\r\n\r\nproxy - your web traffic middleman - acts as middleman for all your web traffic \r\n\r\nrepeater - manual http request manipulation\r\n\r\nintruder - automated attacks\r\n\r\nscanner - \r\n\r\nsequencer - analyzing session tokens\r\n\r\n sql injection\r\n\r\nsql - structured query language\r\n\r\nimproper neutralization of special elements in sql command\r\n\r\nsql inject dangerous\r\n\r\nData breach \r\n\r\ndata loss\r\n\r\nloss of accountability\r\n\r\nDenial of service or DoS\r\n\r\nfull system compromise\r\n\r\nmitigation strats\r\n\r\n- prepared statements with parameterized queries\r\n- input validation\r\n- stored procedures(used safely)\r\n- escaping user-supplied input\r\n\r\nconclusion\r\n\r\nSQLi is a critical vulnerability where attackers manipulate databases queries by injecting malicious SQL code through user input",
+    "tags": [
+      "Cybersecurity",
+      "Tutorial"
+    ],
+    "slug": "burp suite",
+    "fileName": "burp suite.md"
+  },
+  {
     "id": 1,
     "title": "Web application security",
-    "date": "2026-08-17T10:12:39.939Z",
+    "date": "2026-08-17T10:20:41.650Z",
     "excerpt": "a small note for the Web application security...",
     "content": "Web application security\r\n\r\nAdvanced Research Projects Agency Network (ARPANET) - foundation of the Internet\r\n\r\n- http,ftp ,email\r\n\r\nTHE OLD WEB THE DAWN OF THE WORLD WIDE WEB\r\n\r\n- Tim Berners-Lee in 1989, web 1.0, static HTML pages\r\n\r\nModern Web\r\n\r\n- html 5 css 3 js\r\n\r\nConfidentiality\r\n\r\nIntegrity\r\n\r\nAvailability\r\n\r\nCase Study\r\n\r\nBlackcat ransomware group\r\n\r\n- 3.09 bill approx healthcare colossus\r\n\r\nAnatomy of Web\r\n\r\nURL- uniform resource locator",
     "tags": [
@@ -71,10 +71,10 @@
     "excerpt": "A practical introduction to APIs and how they allow websites, mobile apps, and services to communicate....",
     "content": "# How APIs Connect Modern Applications\n\nOne of the most important concepts I have encountered while learning software development is the **API**, or Application Programming Interface.\n\nAn API provides a defined way for one application to communicate with another. Instead of every part of a system directly accessing everything else, an application can request data or perform an operation through an API.\n\n## A simple example\n\nImagine a reservation application. The mobile application may need to display available stations. Instead of storing all of that information inside the mobile app, it can request the current information from a backend service.\n\nA simplified flow looks like this:\n\n```text\nMobile App\n    |\n    | GET /stations\n    v\nBackend API\n    |\n    | Query\n    v\nDatabase\n    |\n    v\nBackend API\n    |\n    v\nMobile App\n```\n\nThe same concept can be used for websites, desktop applications, payment services, authentication systems, and analytics platforms.\n\n## Why APIs are useful\n\nAPIs help separate different parts of a system. A frontend can focus on the user interface while the backend handles business rules, authentication, and database operations.\n\nSome common API operations include:\n\n- GET - retrieve information\n- POST - create information\n- PUT/PATCH - update information\n- DELETE - remove information\n\nREST APIs commonly use HTTP and JSON because they are relatively simple to work with across different platforms.\n\n## What I learned\n\nWorking with APIs changed how I think about application architecture. A system does not have to be one large program. Different applications can communicate through clearly defined interfaces.\n\nThis becomes especially useful when building systems that have a web application, mobile application, database, and other services working together.",
     "tags": [
-      "[\"Web Development\"",
-      "\"APIs\"",
-      "\"Backend\"",
-      "\"IT\"]"
+      "Web Development",
+      "APIs",
+      "Backend",
+      "IT"
     ],
     "slug": "apis-in-modern-applications",
     "fileName": "apis-in-modern-applications.md"
@@ -86,10 +86,10 @@
     "excerpt": "The SQL concepts I consider essential when building applications that store and retrieve structured data....",
     "content": "# SQL Basics Every Application Developer Should Understand\n\nApplications become much more useful when they can store information permanently. For many systems, that means working with a relational database and SQL.\n\nSQL, or Structured Query Language, is used to work with relational databases such as MySQL.\n\n## The basic operations\n\nThe most common database operations are often described as CRUD:\n\n- **Create** - add data\n- **Read** - retrieve data\n- **Update** - change data\n- **Delete** - remove data\n\nFor example, a station monitoring system might have a `stations` table containing station names and statuses.\n\nA basic query could look like:\n\n```sql\nSELECT id, station_name, status\nFROM stations\nORDER BY station_name;\n```\n\nThis retrieves selected columns and sorts the results.\n\n## Why database design matters\n\nWriting SQL is only one part of database development. The structure of the database also matters.\n\nA well-designed database should consider:\n\n- appropriate data types\n- primary keys\n- relationships between tables\n- constraints\n- indexes\n- validation\n- access control\n\nPoor database design can make an application harder to maintain even if the interface looks good.\n\n## What I learned\n\nWhen developing systems, I try to think about the data before building every screen. Understanding what information needs to be stored and how different records relate to each other makes the application easier to develop and maintain.\n\nDatabase knowledge is useful for almost every area of IT, from business systems to mobile applications and analytics platforms.",
     "tags": [
-      "[\"SQL\"",
-      "\"MySQL\"",
-      "\"Database\"",
-      "\"IT\"]"
+      "SQL",
+      "MySQL",
+      "Database",
+      "IT"
     ],
     "slug": "sql-for-application-developers",
     "fileName": "sql-for-application-developers.md"
@@ -101,10 +101,10 @@
     "excerpt": "How I use Git and GitHub to keep development work organized and recoverable....",
     "content": "# Git and GitHub: A Practical Workflow for Student Developers\n\nWhen a project starts becoming larger, manually keeping copies of folders can become confusing. Git solves part of this problem by tracking changes to a project.\n\nGitHub provides a remote place where Git repositories can be stored and shared.\n\n## A simple workflow\n\nA basic workflow I use is:\n\n```bash\ngit status\ngit add .\ngit commit -m \"Update portfolio\"\ngit push\n```\n\n`git status` helps me understand what changed before I commit anything.\n\n`git add` stages the changes.\n\n`git commit` creates a checkpoint with a message.\n\n`git push` sends the committed changes to the remote repository.\n\n## Branches\n\nBranches are useful when I want to work on something without immediately changing the main version.\n\nFor example:\n\n```bash\ngit checkout -b feature/projects\n```\n\nAfter testing the feature, the changes can be merged into the appropriate branch.\n\n## GitHub Pages\n\nGitHub can also be used to publish static websites. This is useful for portfolios because a React application can be built into static files and deployed through a Pages branch.\n\nThe important lesson is that the source project and the generated production files can have different purposes.\n\n## What I learned\n\nGit is not only a backup system. It gives a project a history. When something breaks, previous commits can help identify what changed and provide a recovery point.\n\nFor student projects, learning Git early makes collaboration and project management much easier.",
     "tags": [
-      "[\"Git\"",
-      "\"GitHub\"",
-      "\"Software Development\"",
-      "\"IT\"]"
+      "Git",
+      "GitHub",
+      "Software Development",
+      "IT"
     ],
     "slug": "git-and-github-for-student-developers",
     "fileName": "git-and-github-for-student-developers.md"
@@ -116,10 +116,10 @@
     "excerpt": "Why planning, requirements, development, testing, deployment, and maintenance are all important parts of software development....",
     "content": "# Understanding the Software Development Life Cycle\n\nBuilding software is more than writing code. A good system also requires planning, requirements analysis, testing, documentation, deployment, and maintenance.\n\nThe **Software Development Life Cycle (SDLC)** provides a structured way to organize these activities.\n\n## Common SDLC activities\n\nA project may include:\n\n1. Planning\n2. Requirements analysis\n3. System design\n4. Development\n5. Testing\n6. Deployment\n7. Maintenance\n\nDifferent development models organize these activities differently.\n\n## Why requirements matter\n\nOne of the biggest lessons I have learned from academic projects is that coding a feature is easier when the requirements are clear.\n\nBefore development, it helps to identify:\n\n- who will use the system\n- what problems the system solves\n- what data is needed\n- what the system should and should not do\n- what constraints exist\n\nWithout clear requirements, developers can spend time building features that are not actually needed.\n\n## Testing is part of development\n\nTesting should not be treated as something done only at the end.\n\nDevelopers can test individual functions, modules, integrations, user workflows, and the complete system.\n\nFor example, a reservation system should test more than whether a button works. It should also verify that unavailable resources cannot be reserved and that the correct records are stored.\n\n## What I learned\n\nThe SDLC helped me understand why system development should be approached as a process instead of simply opening an editor and starting to code.\n\nGood planning reduces confusion later and makes it easier to explain how a system was developed.",
     "tags": [
-      "[\"SDLC\"",
-      "\"Software Engineering\"",
-      "\"System Development\"",
-      "\"IT\"]"
+      "SDLC",
+      "Software Engineering",
+      "System Development",
+      "IT"
     ],
     "slug": "software-development-life-cycle-for-students",
     "fileName": "software-development-life-cycle-for-students.md"
@@ -131,10 +131,10 @@
     "excerpt": "A developer-friendly look at IP addresses, DNS, VLANs, ports, and why networking knowledge matters in software development....",
     "content": "# Networking Fundamentals That Every Developer Should Know\n\nDevelopers often focus on programming languages and frameworks, but networking knowledge becomes important as soon as applications communicate across devices.\n\n## IP addresses\n\nAn IP address identifies a device or network interface. In a local network, devices can use private IP addresses to communicate with each other.\n\nUnderstanding IP addresses helps when troubleshooting problems such as:\n\n- a server that cannot be reached\n- a database connection that fails\n- devices that cannot communicate\n- incorrect network configuration\n\n## DNS\n\nDNS, or Domain Name System, translates domain names into IP addresses.\n\nInstead of remembering an IP address, users can access a service using a domain name.\n\nA simplified process is:\n\n```text\nBrowser\n   |\n   | domain name\n   v\nDNS\n   |\n   | IP address\n   v\nWeb Server\n```\n\n## VLANs\n\nA VLAN can logically separate network traffic even when devices share physical network infrastructure.\n\nFor example, an organization could separate:\n\n- employee devices\n- student devices\n- guest devices\n- management devices\n\nThis can improve organization and help apply different network policies.\n\n## Ports and services\n\nApplications often communicate through network ports. Developers may encounter ports such as 80 for HTTP and 443 for HTTPS.\n\nKnowing which service is listening on a port can be extremely useful during troubleshooting.\n\n## What I learned\n\nNetworking is not separate from software development. APIs, databases, authentication services, web servers, and cloud applications all depend on network communication.\n\nA developer does not always need to be a network administrator, but understanding the fundamentals makes debugging much easier.",
     "tags": [
-      "[\"Networking\"",
-      "\"DNS\"",
-      "\"VLAN\"",
-      "\"IT\"]"
+      "Networking",
+      "DNS",
+      "VLAN",
+      "IT"
     ],
     "slug": "networking-fundamentals-for-developers",
     "fileName": "networking-fundamentals-for-developers.md"
@@ -146,10 +146,10 @@
     "excerpt": "My perspective on combining React components with TypeScript when building maintainable web interfaces....",
     "content": "# Why I Like Using React and TypeScript for Web Applications\n\nReact changed the way I approach frontend development because interfaces can be broken into reusable components.\n\nInstead of thinking about a page as one large HTML document, I can think about it as a collection of smaller pieces.\n\n## Components\n\nA portfolio, for example, can contain components such as:\n\n```text\nNavigation\nHero\nProjects\nBlog\nAbout\nContact\nFooter\n```\n\nEach section can have its own structure and behavior.\n\n## Why TypeScript helps\n\nJavaScript is flexible, but that flexibility can sometimes make larger projects harder to maintain.\n\nTypeScript allows developers to define the expected structure of data.\n\nFor example:\n\n```tsx\ninterface Project {\n  id: number;\n  title: string;\n  description: string;\n  tags: string[];\n}\n```\n\nNow the application has a clearer contract for what a project should contain.\n\n## Data-driven interfaces\n\nOne of the useful patterns I use in portfolio development is separating data from presentation.\n\nInstead of writing every project card manually, the application can store project information in an array and render it with `map()`.\n\nThat means adding another project can be as simple as adding another object.\n\n## What I learned\n\nReact is useful for interactive interfaces, while TypeScript helps make the code easier to understand and maintain.\n\nThe combination is particularly useful for projects that are expected to grow over time.",
     "tags": [
-      "[\"React\"",
-      "\"TypeScript\"",
-      "\"Frontend\"",
-      "\"Web Development\"]"
+      "React",
+      "TypeScript",
+      "Frontend",
+      "Web Development"
     ],
     "slug": "react-and-typescript-development",
     "fileName": "react-and-typescript-development.md"
@@ -161,10 +161,10 @@
     "excerpt": "What makes Flutter useful when building mobile applications from a shared codebase....",
     "content": "# Getting Started With Cross-Platform Mobile Development Using Flutter\n\nMobile development can involve different platforms, screen sizes, and device capabilities. Flutter provides a way to build applications for multiple platforms using Dart.\n\n## Widgets\n\nFlutter applications are built using widgets.\n\nA simple interface might contain:\n\n```text\nScaffold\n ├── AppBar\n └── Body\n      ├── Card\n      ├── Text\n      └── Button\n```\n\nWidgets can be combined to create larger interfaces.\n\n## State\n\nApplications often need to remember information that changes while the user interacts with them.\n\nExamples include:\n\n- selected station\n- logged-in user\n- loading state\n- form values\n- retrieved records\n\nFlutter provides state-management approaches that allow the interface to respond when data changes.\n\n## Connecting to data\n\nA mobile application can communicate with a backend or database service to retrieve and update information.\n\nFor a monitoring application, the flow could be:\n\n```text\nFlutter App\n    |\n    v\nApplication Service\n    |\n    v\nDatabase\n```\n\nThe important part is keeping the user interface separate from the logic that retrieves and processes data.\n\n## What I learned\n\nFlutter made me more interested in mobile application development because the same development approach can target different platforms.\n\nIt also reinforced the importance of organizing application code into reusable widgets and services.",
     "tags": [
-      "[\"Flutter\"",
-      "\"Dart\"",
-      "\"Mobile Development\"",
-      "\"IT\"]"
+      "Flutter",
+      "Dart",
+      "Mobile Development",
+      "IT"
     ],
     "slug": "flutter-for-cross-platform-applications",
     "fileName": "flutter-for-cross-platform-applications.md"
@@ -176,10 +176,10 @@
     "excerpt": "Basic security practices developers should consider when building web applications....",
     "content": "# Secure Web Development: Lessons From Web Application Security\n\nSecurity should be considered while developing an application rather than added only after the application is finished.\n\nOne of the web security topics I studied is input handling and Cross-Site Scripting (XSS).\n\n## Never blindly trust user input\n\nApplications often receive data from:\n\n- forms\n- query parameters\n- APIs\n- uploaded files\n- cookies\n- other services\n\nThat data should be validated according to what the application expects.\n\nFor example, if a field expects an email address, the application should validate that it follows the expected format.\n\n## Output encoding\n\nInput validation is not the only important control. Applications should also safely handle data when displaying it.\n\nOutput encoding helps prevent user-controlled content from being interpreted as executable HTML or JavaScript.\n\n## Other security practices\n\nDevelopers should also consider:\n\n- secure password storage\n- authentication and authorization\n- HTTPS\n- secure cookies\n- access control\n- error handling\n- dependency updates\n- logging and monitoring\n- least-privilege access\n\n## Security testing\n\nSecurity testing can identify weaknesses before they become real problems.\n\nIn a controlled academic security exercise I studied, the focus was on understanding how insecure input handling can create serious application risks. The exercise reinforced that secure coding decisions should be made during development.\n\n## What I learned\n\nSecurity is not one feature. It is a collection of practices that should be considered throughout the software development lifecycle.",
     "tags": [
-      "[\"Cybersecurity\"",
-      "\"Web Security\"",
-      "\"OWASP\"",
-      "\"IT\"]"
+      "Cybersecurity",
+      "Web Security",
+      "OWASP",
+      "IT"
     ],
     "slug": "secure-web-development-basics",
     "fileName": "secure-web-development-basics.md"
@@ -191,10 +191,10 @@
     "excerpt": "How raw operational records can be transformed into information that helps people make better decisions....",
     "content": "# From System Logs to Useful Analytics\n\nApplications can generate a large amount of operational information. The challenge is turning that raw information into something useful.\n\nA log by itself is just a record. Analytics gives the record context.\n\n## Example: station monitoring\n\nConsider a computer station with records such as:\n\n```text\nStation: PC-01\nLogin: 10:00\nLogout: 12:30\nDuration: 150 minutes\nRevenue: 150\n```\n\nWith enough records, we can calculate useful metrics.\n\nFor example:\n\n- total sessions\n- average session duration\n- revenue per station\n- peak usage periods\n- downtime frequency\n- maintenance history\n\n## Data quality matters\n\nAnalytics is only as reliable as the data being analyzed.\n\nMissing or incorrect records can affect conclusions. This is why systems should validate data and maintain consistent logging practices.\n\n## From descriptive to predictive\n\nDescriptive analytics answers questions such as:\n\n> What happened?\n\nPredictive analytics attempts to answer:\n\n> What might happen next?\n\nHistorical usage can be analyzed to identify trends and recurring patterns.\n\nIn a system such as STATIONSTAT, operational records can support analysis of station utilization, revenue performance, downtime, maintenance, and customer traffic patterns. The project documentation describes these records as inputs for operational analytics and forecasting. fileciteturn13file0L20-L34\n\n## What I learned\n\nBuilding an analytics feature is not simply about creating charts. The more important part is deciding which information can actually help someone make a decision.\n\nGood analytics should turn data into understandable and actionable information.",
     "tags": [
-      "[\"Data Analytics\"",
-      "\"Business Intelligence\"",
-      "\"Systems\"",
-      "\"IT\"]"
+      "Data Analytics",
+      "Business Intelligence",
+      "Systems",
+      "IT"
     ],
     "slug": "from-logs-to-analytics",
     "fileName": "from-logs-to-analytics.md"

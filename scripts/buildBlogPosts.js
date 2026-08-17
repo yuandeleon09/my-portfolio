@@ -26,8 +26,29 @@ function parseMarkdown(markdown) {
     });
     
     // Parse tags if they exist
+  // Parse tags if they exist
     if (metadata.tags && typeof metadata.tags === 'string') {
-      metadata.tags = metadata.tags.split(',').map(tag => tag.trim());
+      const raw = metadata.tags.trim();
+
+      if (raw.startsWith('[') && raw.endsWith(']')) {
+        // Handles: tags: ["Web Development", "APIs", "Backend", "IT"]
+        try {
+          metadata.tags = JSON.parse(raw);
+        } catch {
+          // Fallback: strip brackets/quotes then split on comma
+          metadata.tags = raw
+            .slice(1, -1)
+            .split(',')
+            .map(tag => tag.trim().replace(/^["']|["']$/g, ''))
+            .filter(Boolean);
+        }
+      } else {
+        // Handles: tags: Cybersecurity, Tutorial
+        metadata.tags = raw
+          .split(',')
+          .map(tag => tag.trim().replace(/^["']|["']$/g, ''))
+          .filter(Boolean);
+      }
     }
     
     return { metadata, content };
