@@ -116,6 +116,7 @@ const authorInfo: AuthorInfo = {
     "React", "TypeScript", "Node.js", "Python", 
     "MongoDB", "MYSQL", "JAVA", "REST APIs",
     "Tailwind CSS", "Git", "HTML", "CSS","Javascript","Flutter", "Laravel"
+    ,"Dart","Express.js","Supabase"
   ],
   experience: [
     {

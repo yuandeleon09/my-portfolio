@@ -2,7 +2,7 @@
 title: "SQL Basics Every Application Developer Should Understand"
 date: "2026-08-16T09:00:00"
 excerpt: "The SQL concepts I consider essential when building applications that store and retrieve structured data."
-
+tags: ["SQL", "MySQL", "Database", "IT"]
 ---
 
 # SQL Basics Every Application Developer Should Understand

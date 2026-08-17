@@ -2,7 +2,7 @@
 title: "Why I Like Using React and TypeScript for Web Applications"
 date: "2026-08-12T09:00:00"
 excerpt: "My perspective on combining React components with TypeScript when building maintainable web interfaces."
-
+tags: ["React", "TypeScript", "Frontend", "Web Development"]
 ---
 
 # Why I Like Using React and TypeScript for Web Applications

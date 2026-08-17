@@ -2,7 +2,7 @@
 title: "From System Logs to Useful Analytics"
 date: "2026-08-09T09:00:00"
 excerpt: "How raw operational records can be transformed into information that helps people make better decisions."
-
+tags: ["Data Analytics", "Business Intelligence", "Systems", "IT"]
 ---
 
 # From System Logs to Useful Analytics
