@@ -419,7 +419,7 @@ const App: React.FC = () => {
               onClick={() => setAuthorModalOpen(true)}
               className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
             >
-              {authorInfo.name}
+              {"My Information"}
             </button>
             
             <div className="hidden md:flex gap-8">
