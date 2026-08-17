@@ -96,9 +96,9 @@ const projects: Project[] = [
   {
     id: 5,
     title: "Baranggay Management System",
-    description: "A Comprehensive Baranggay Management System For Baranggay  New Era, This system is designed to streamline administrative tasks, manage resident information, and facilitate communication within the community. Built with Node.js, Express, and React for a full-stack solution.",
+    description: "A Comprehensive Baranggay Management System For Baranggay  New Era, This system is designed to streamline administrative tasks, manage resident information, and facilitate communication within the community. Built with Laravel, MySQL for a full-stack solution.",
     image: barangayImage,
-    tags: ["MySQL", "Express", "Laravel"],
+    tags: ["MySQL", "Laravel"],
     github: "https://github.com/yuandeleon09/baranggay-management-system",
     live: "https://github.com/yuandeleon09/baranggay-management-system"
   }
