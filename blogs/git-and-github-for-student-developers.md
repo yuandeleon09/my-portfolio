@@ -2,7 +2,7 @@
 title: "Git and GitHub: A Practical Workflow for Student Developers"
 date: "2026-08-15T09:00:00"
 excerpt: "How I use Git and GitHub to keep development work organized and recoverable."
-tags: ["Git", "GitHub", "Software Development", "IT"]
+
 ---
 
 # Git and GitHub: A Practical Workflow for Student Developers

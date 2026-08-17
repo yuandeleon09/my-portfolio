@@ -2,7 +2,6 @@
 title: "How APIs Connect Modern Applications"
 date: "2026-08-17T09:00:00"
 excerpt: "A practical introduction to APIs and how they allow websites, mobile apps, and services to communicate."
-tags: ["Web Development", "APIs", "Backend", "IT"]
 ---
 
 # How APIs Connect Modern Applications

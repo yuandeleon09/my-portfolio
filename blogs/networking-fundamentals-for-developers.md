@@ -2,7 +2,7 @@
 title: "Networking Fundamentals That Every Developer Should Know"
 date: "2026-08-13T09:00:00"
 excerpt: "A developer-friendly look at IP addresses, DNS, VLANs, ports, and why networking knowledge matters in software development."
-tags: ["Networking", "DNS", "VLAN", "IT"]
+
 ---
 
 # Networking Fundamentals That Every Developer Should Know
