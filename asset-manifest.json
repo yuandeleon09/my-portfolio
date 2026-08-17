@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.aed087f9.css",
-    "main.js": "/my-portfolio/static/js/main.3960ac81.js",
+    "main.js": "/my-portfolio/static/js/main.5e09aea3.js",
     "static/media/Baranggay New Era.png": "/my-portfolio/static/media/Baranggay New Era.fa769caaeb96c3e87bbf.png",
     "static/media/profile.jpg": "/my-portfolio/static/media/profile.55bc0d541e2fec3ca076.jpg",
     "index.html": "/my-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.aed087f9.css",
-    "static/js/main.3960ac81.js"
+    "static/js/main.5e09aea3.js"
   ]
 }
